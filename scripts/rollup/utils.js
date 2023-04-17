@@ -7,7 +7,7 @@ import { log } from 'console';
 const pkgPath = path.resolve(__dirname, '../../packages');
 const distPath = path.resolve(__dirname, '../../dist/node_modules');
 
-function resolvePkgPath(pkgName) {
+export function resolvePkgPath(pkgName) {
   return {
     // 开发包路径
     devPath: `${pkgPath}/${pkgName}`,

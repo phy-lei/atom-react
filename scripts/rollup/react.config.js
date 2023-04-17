@@ -9,7 +9,7 @@ export default [
     input: filePath,
     output: {
       file: `${distPath}/index.js`,
-      name: 'index.js',
+      name: 'React',
       format: 'umd',
     },
     plugins: [
@@ -32,12 +32,12 @@ export default [
     output: [
       {
         file: `${distPath}/jsx-runtime.js`,
-        name: 'jsx-runtime.js',
+        name: 'jsx-runtime',
         format: 'umd',
       },
       {
         file: `${distPath}/jsx-dev-runtime.js`,
-        name: 'jsx-dev-runtime.js',
+        name: 'jsx-dev-runtime',
         format: 'umd',
       },
     ],
